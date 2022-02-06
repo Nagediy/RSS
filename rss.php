@@ -1,10 +1,10 @@
 <?php
 
 // HOST
-$host = "https://kreativ-anders.de/";
+$host = "https://[YOUR DOMAIN].[TLD]/";
 
 // BLOG TITLE
-$title = "Blog kreativ-anders | Manuel Steinberg";
+$title = "[TITLE OF YOUR RSS PAGE]";
 
 // BLOG FOLDER
 $folder = "blog";
@@ -63,7 +63,7 @@ $xml .= "\t<title>" . $title . "</title>\n";
 $xml .= "\t<link>" . $host . $folder . "/</link>\n";
 $xml .= "\t<image>";
 $xml .= "\t\t<title>" . $title . "</title>\n";
-$xml .= "\t\t<url>" . "https://github.kreativ-anders.dev/logo/dark-512.png" . "</url>\n";
+$xml .= "\t\t<url>" . "[ABSOLUTE URL TO SHARE IMAGE]" . "</url>\n";
 $xml .= "\t\t<link>" . $host . $folder . "/</link>\n";
 $xml .= "\t</image>\n";
 $xml .= "\t<description></description>\n";
